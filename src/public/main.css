@@ -1,3 +1,38 @@
 body{
     background-color: rgb(21, 21, 21);
 }
+#pAnimado {
+    animation-duration: 6s;
+    animation-name: slidein;
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+/* #pAnimado2 {
+    animation-duration: 6s;
+    animation-name: bounce;
+    
+  }
+  
+  @keyframes bounce {
+    from {
+      margin-left: 100%;
+      width: 50%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+} */
