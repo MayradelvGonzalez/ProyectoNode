@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title><%= title %></title>
+    <%- include('partials/ejs.ejs') %>
 </head>
 <body>
-    <main>
-        <h1>Hello Node World!</h1>
-    </main>
+    
+        <%- include('partials/navigation.ejs') %>
+        <!--Min content-->
+        <header class="container bg-dark vh-100 d-flex justify-content-center align-items-center">
+            <img src="/image/avatar.jpg" alt="logo" class="w-25" >
+        </header>
+
+    <footer>
+        <%- include('partials/footer.ejs') %>
+    </footer>
 </body>
 </html>
