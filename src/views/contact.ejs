@@ -9,6 +9,33 @@
 </head>
 <body>
     <%- include('partials/navigation.ejs') %>
-    <h1>Contact</h1>
+   
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+
+    <div class="card bg-dark text-white text-center ">
+        <div class="card-header">
+            <h1>Contact</h1>
+        </div>
+        <div class="card-body text-start">
+            <form action="">
+                <div class="mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="email" class="form-control">
+                </div>
+                
+                <div class="mb-3">
+                <label for="message">Message</label>
+                <textarea name="message" rows="3" class="form-control" placeholder="Write a message" ></textarea>
+            </div>
+                <button class="btn btn-primary btn-block">
+                    Save
+                </button>
+            </form>
+        </div>
+    </div>
+
+    </div>
+    
+        <%- include('partials/footer.ejs') %>
 </body>
 </html>
