@@ -4,13 +4,22 @@ body {
 
 
 }
+#titulo{
+    text-decoration: underline wavy blue;
+}
+#titulo:hover{
+    text-decoration: underline wavy white;
+    color: blue;
+}
 #navegador{
     color: white;
     background-color: black;
+    padding: 0.7em;
+    border: 0.1em white gray;
 }
 nav{
     background-color: #e5e5f7;
-    background-image:  linear-gradient(135deg, #474444 25%, transparent 25%), linear-gradient(225deg, #474444 25%, transparent 25%), linear-gradient(45deg, #474444 25%, transparent 25%), linear-gradient(315deg, #181818 25%, #e5e5f7 25%);
+    background-image:  linear-gradient(135deg, #474444 25%, transparent 25%), linear-gradient(225deg, #474444 25%, transparent 25%), linear-gradient(45deg, #474444 25%, transparent 25%), linear-gradient(315deg, #474444 25%, #72727a 25%);
     background-position:  31px 0, 31px 0, 0 0, 0 0;
     background-size: 62px 62px;
     background-repeat: repeat;
