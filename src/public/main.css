@@ -16,6 +16,11 @@ body {
     background-color: black;
     padding: 0.7em;
     border: 0.1em white gray;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
 }
 nav{
     background-color: #e5e5f7;
@@ -50,4 +55,26 @@ nav{
         margin-left: 0%;
         width: 100%;
     }
+}
+
+#imagen{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 10px 10px pink;
+    -webkit-box-shadow: 0px 0px 15px 15px pink;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    
+}
+#imagen:hover{
+    border-radius:40%;
+    -webkit-border-radius:40%;
+    box-shadow: 0px 0px 15px 15px palevioletred;
+    -webkit-box-shadow: 0px 0px 15px 15px palevioletred;
+    /* transform: rotate(360deg); */
+    /* -webkit-transform: rotate(360deg); */
+    -moz-border-radius:40%;
+    -ms-border-radius:40%;
+    -o-border-radius:40%;
 }
